@@ -1,0 +1,11 @@
+body {
+  background-color: transparent;
+  roblox-type: Body;
+}
+
+.TestDiv {
+  background-color: gray;
+  height: 200px;
+  width: 50%;
+  roblox-type: ImageLabel;
+}
