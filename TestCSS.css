@@ -2,5 +2,7 @@
   background-color: gray;
   height: 200;
   width: 500;
+  left: 100px;
+  top: 200%;
   roblox-type: ImageLabel;
 }
