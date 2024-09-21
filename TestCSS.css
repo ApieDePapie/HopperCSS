@@ -19,4 +19,9 @@
   border-size: 0px;
   roblox-type: ImageLabel;
   roblox-parent: TestDiv;
+  transition: 1s ease-in-out;
+}
+
+.SecondDiv:hover {
+  background-color: gray;
 }
