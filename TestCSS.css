@@ -1,8 +1,22 @@
 .TestDiv {
   background-color: gray;
-  height: 200;
-  width: 500;
-  left: 100px;
-  top: 200%;
+  height: 200px;
+  width: 500px;
+  position: fixed;
+  left: 200px;
+  top: 25%;
+  border-width: 0px;
   roblox-type: ImageLabel;
+}
+
+.TestDiv2 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 20%;
+  top: 25%;
+  border-width: 0px;
+  roblox-type: ImageLabel;
+  roblox-parent: TestDiv;
 }
