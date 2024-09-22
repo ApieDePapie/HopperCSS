@@ -23,5 +23,8 @@
 }
 
 .SecondDiv:hover {
-  background-color: gray;
+  background-color: rgb(66, 135, 245);
+  width: 100px;
+  height: 100px;
+  top: 27%;
 }
