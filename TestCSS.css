@@ -37,7 +37,7 @@
   position: relative;
   top: 5%;
   left: 5%;
-  roblox-type: Frame;
+  roblox-type: ImageLabel;
   border-radius: 8px;
   transition: 500ms ease-in-out;
   roblox-image: 7019310893;
