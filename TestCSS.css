@@ -1,51 +1,51 @@
-.TestDiv {
-  background-color: gray;
-  height: 200px;
-  width: 500px;
+.MainContainer {
+  background-color: rgb(36, 36, 36);
   position: fixed;
-  left: 200px;
-  top: 25%;
-  border-width: 0px;
-  roblox-type: ImageLabel;
+  width: 100%;
+  height: 100%;
 }
 
-.SecondDiv {
-  background-color: black;
-  height: 50px;
-  width: 50px;
-  position: relative;
-  left: 20%;
-  top: 25%;
-  border-size: 0px;
-  roblox-type: ImageLabel;
-  roblox-parent: TestDiv;
-  transition: 1s ease-in-out;
+.WheelContainer {
+  roblox-type: ScrollingFrame;
+  roblox-parent: MainContainer;
+  width: 100%;
+  height: 20%;
+  top: 50%;
+  position: fixed;
 }
 
-.SecondDiv:hover {
-  background-color: rgb(66, 135, 245);
-  width: 100px;
-  height: 100px;
-  top: 27%;
-}
-
-.CoolDiv {
+.ResultSlot {
   background-color: rgb(43, 45, 48);
-  image-color: rgb(43, 45, 48);
-  width: 50px;
-  height: 50px;
+  image-color: rgb(255, 255, 255);
+  width: 9%;
+  height: 30%;
   position: relative;
-  top: 5%;
-  left: 5%;
+  top: 10%;
+  left: 45%;
   roblox-type: ImageLabel;
   border-radius: 8px;
   transition: 200ms ease-in-out;
   roblox-image: 122127188357387;
   background-transparency: 1;
+  roblox-parent: MainContainer;
 }
 
-.CoolDiv:hover {
-  width: 60px;
-  height: 60px;
+.ResultSlot:hover {
+  width: 10%;
+  height: 35%;
+  top: 8%;
   image-color: rgb(255, 255, 255);
+}
+
+.PresetSlot {
+  roblox-type: ImageLabel;
+  roblox-parent: WheelContainer;
+  roblox-image: 76339519108896;
+  background-color: rgb(59, 59, 59);
+  image-color: rgb(255, 191, 41);
+  position: relative;
+  width: 5%;
+  height: 80%;
+  top: 1%;
+  left: 1%;
 }
