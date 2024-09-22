@@ -41,6 +41,7 @@
   border-radius: 8px;
   transition: 500ms ease-in-out;
   roblox-image: 7019310893;
+  background-transparency: 1;
 }
 
 .CoolDiv:hover {
