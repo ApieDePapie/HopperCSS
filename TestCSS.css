@@ -37,10 +37,10 @@
   position: relative;
   top: 5%;
   left: 5%;
-  roblox-type: ImageLabel;
+  roblox-type: Frame;
   border-radius: 8px;
   transition: 500ms ease-in-out;
-  roblox-image: 7019310893;
+  roblox-image: rbxassetid://122127188357387;
   background-transparency: 1;
 }
 
@@ -49,4 +49,3 @@
   height: 60px;
   image-color: rgb(255, 255, 255);
 }
-
