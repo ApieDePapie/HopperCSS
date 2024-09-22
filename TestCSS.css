@@ -47,5 +47,6 @@
 .CoolDiv:hover {
   width: 60px;
   height: 60px;
+  image-color: rgb(255, 255, 255);
 }
 
